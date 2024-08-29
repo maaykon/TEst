@@ -103,3 +103,65 @@ header, .navbar{
     
 }
 
+/*Sobre a empresa*/
+
+#about-area{
+    background-color: #f9f9f9;
+}
+
+.main-title{
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.abaut-title{
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#abaut-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#abaut-list li{
+    line-height: 30px;
+}
+
+#abaut-list i{
+    color: #0ffacb;
+}
+
+/*Servicos*/
+
+.service-box{
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+.service-box i, .service-box h4{
+    padding: 20px;
+}
+
+.service-box i{
+    color: #ff0000;
+    font-size: 25px;
+}
+
+.service-box h4{
+    font-size: 25px;
+    margin-right: 20px;
+}

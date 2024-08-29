@@ -10,28 +10,51 @@
     <!--ADICIONAR IMAGEM NA ABA DO NAVEGADOR-->
     <link rel="shortcut icon" href="img/agencia.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   </head>
 
   <body>
 
     <header>
         <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top bg-dark">
-                <a href="#" class="navbar-brand">
-                    <img id="logo" src="img/agencia.svg" alt="Agência Muriçoca">Agência Muriçoca
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand">
+                      <img id="logo" src="img/agencia.png" alt="Agência Muriçoca"> Agência Muriçoca
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" id="home-menu" href="#">Home</a>
-                        <a class="nav-item nav-link" id="about-menu" href="#">A Agência</a>
-                        <a class="nav-item nav-link" id="services-menu" href="#">Serviços</a>
-                        <a class="nav-item nav-link" id="team-menu" href="#">Time</a>
-                        <a class="nav-item nav-link" id="portifolio-menu" href="#">Projetos</a>
-                        <a class="nav-item nav-link" id="contato-menu" href="#">Contato</a>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse justify-content-end"  id="navbar-links">
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" id="home-menu" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" id="about-menu" href="#">A Agência</a>
+                            </li>
+
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" id="services-menu" href="#">Serviços</a>
+                            </li>
+
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" id="team-menu" href="#">Time</a>
+                            </li>
+                        
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" id="portifolio-menu" href="#">Projetos</a>
+                            </li>
+
+                            <li class="nav-item">
+                            <a class="nav-link" aria-current="page" id="contato-menu" href="#">Contato</a>
+                            </li>
+                    
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -41,17 +64,16 @@
     <main>
         <div id="mainSlider"  class="carousel slide">
             <div class="carousel-indicators">
-
+                
               <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              
             </div>
 
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img  src="img/banner1.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
+                  <div class="carousel-caption d-none d-md-block">
                     <h2>Quer criar um e-commerce?</h2>
                     <p>Conte conosco, temos mais de 30 lojas no portfólio.</p>
                     <a href="#" class="main-btn">Ver portfólio</a>
@@ -87,8 +109,96 @@
               <span class="visually-hidden">Next</span>
             </button>
 
-          </div>
-       
+        </div>
+
+            <!--EMPRESA-->
+
+            <div id="about-area">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h3 class="main-title">Sobre a Agência</h3>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="img/agencia.jpg" alt="Agência">
+                        </div>
+
+                        <div class="col-md-6">
+                            <h3 class="about-title">Uma agência de olho no movimento</h3>
+                            <p>Projetos focados no cliente</p>
+                            <p>Após a especificação, análisamos seu projeto e criamos algo incrível utilizando tecnologia de ponta</p>
+                            <p>E nossos fronts são barril dobrado. Eles vão criar coisas incríveis para você</p>
+
+                            <ul id="about-list">
+
+                                <li><i class="fa-solid fa-circle-check"></i></i> Utilização de análise de dados</li>
+
+                                <li><i class="fa-solid fa-circle-check"></i> IA na Veia</li>
+
+                                <li><i class="fa-solid fa-circle-check"></i>Redes neurais e continentais visando atender seu projeto</li>
+
+                                <li><i class="fa-solid fa-circle-check"></i> Feito com a melhor metodologia: faça o que eu mando e não o que eu faço</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--EMPRESA-->
+
+                <div id="services-area">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-12">
+                                <h3 class="main-title">Serviços</h3>
+                            </div>
+
+                            <div class="col-md-4 service-box">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h4>Aplicativos Nativos</h4>
+                                <p>Utilizamos o real poder dos dispositivos móveis com os apps nativos</p>
+                              </div>
+
+                              <div class="col-md-4 service-box">
+                                <i class="fas fa-shopping-cart"></i>
+                                <h4>Comercio Eletrônico</h4>
+                                <p>A melhor plataforma para seu negócio online</p>
+                              </div>
+
+                              <div class="col-md-4 service-box">
+                                <i class="fas fa-paint-brush"></i>
+                                <h4>Design fora da curva</h4>
+                                <p>O melhor design para o seu projeto</p>
+                              </div>
+
+                              <div class="col-md-4 service-box">
+                                <i class="fas fa-google"></i>
+                                <h4>SEO é com a gente!</h4>
+                                <p>Nosso Marketing vai te direcionar a ir cada vez mais longe</p>
+                              </div>
+                              
+                              <div class="col-md-4 service-box">
+                                <i class="fas fa-hands-helping"></i>
+                                <h4>Suporte a qualquer momento</h4>
+                                <p>Dormir é para fracos! Aqui funcionamos 24/7 para seu conforto</p>
+                              </div>
+
+                              <div class="col-md-4 service-box">
+                                <i class="fas fa-server"></i>
+                                <h4>Server é com a gente!</h4>
+                                <p>Melhores servidores do mundo. Não caimos, não paramos e não mentimos.</p>
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
         </div>    
     </main>
 
