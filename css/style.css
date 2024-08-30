@@ -17,11 +17,17 @@ p, li {
     color: #444;
     font-size: 14px;
 }
+/*Agencia*/
+
+.imgAgm{
+    border: 15px;
+
+}
 
 /*NAV*/
 
 header, .navbar{
-    background-color: #353d41;
+    background-color: #0d0d0e;
 }
 
 #nav-container{
@@ -31,6 +37,7 @@ header, .navbar{
 
 #logo{
     width: 75px;
+    margin-left: 20px;
 }
 
 .navbar-brand{
@@ -165,7 +172,7 @@ header, .navbar{
 }
 
 .service-box:hover > i, .service-box:hover > h4{
-    color: #65daf9;
+    color: #fc1e1e;
 } 
 
 /*Dados Empresa*/
@@ -181,7 +188,7 @@ header, .navbar{
 }
 
 #data area{
-    color: #fff;
+    color: #ff0000;
     text-align: center;
     font-size: 26px;
     margin: 20px;
