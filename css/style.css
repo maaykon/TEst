@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
 
+/*Estilo inicial*/
 body{
     font-family: 'Moderustic', sans-serif;
 }
@@ -12,34 +13,32 @@ body{
     padding: 70px 0;
 }
 
-p, li{
+p, li {
     color: #444;
     font-size: 14px;
 }
 
-/**/
+/*NAV*/
 
 header, .navbar{
     background-color: #353d41;
 }
 
 #nav-container{
-    margin-top: 0;
     padding-top: 0;
+    padding-bottom: 0;
 }
 
 #logo{
     width: 75px;
-    margin: 5px 0 5px 25px;
 }
 
 .navbar-brand{
     padding: 0;
-    color: #fff;
+    color:#fff;
 }
-
 .navbar-brand:hover{
-    color: #fff;
+    color:#fff;
 }
 
 #navbar-links a{
@@ -51,20 +50,20 @@ header, .navbar{
 }
 
 .nav-item.active{
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid #fff; 
 }
 
+/*carosel*/
 .container-fluid{
     padding: 0;
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item{
     height: 90vh;
-
 }
 
 #mainSlider .carousel-caption{
-    top: 30%;
+    top:30%;
 }
 
 #mainSlider .carousel-caption h2{
@@ -73,100 +72,117 @@ header, .navbar{
 }
 
 #mainSlider .carousel-caption p{
-    font-size: 22px;
+    font-size:22px;
     font-weight: 300;
     margin-bottom: 100px;
-    color: #fff;    
+    color: #fff;
 }
 
 .main-btn{
-    background-color: #117964;
+    background-color: #65daf9;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     width: 200px;
     height: 60px;
     padding: 10px 20px;
+    border-radius:30px;
     border: 3px solid transparent;
-    border-radius: 30px;
-    transition: .5s;
+    transition:.5s;
 }
 
 .main-btn:hover{
     text-decoration: none;
     color: #fff;
-    background-color: transparent;
-    border-color: #117964;
+    background-color:transparent ;
+    border-color: #65daf9;
 }
 
-.carousel-indicators :active{
-    background-color: #117964;
-    
+.carousel-indicators .active{
+    background-color: #65daf9;
 }
 
-/*Sobre a empresa*/
-
+/*sobre a empresa */
 #about-area{
     background-color: #f9f9f9;
 }
 
 .main-title{
-    color: #000000;
-    margin: 0 0 65px 0;
+    color: #444;
+    margin:  0 0 65px 0;
     font-size: 40px;
     text-align: center;
 }
 
 .main-title::after{
     content: "";
-    border-top: 2px solid #000000;
+    border-top: 2px solid #333;
     width: 15%;
     position: absolute;
     top: 60px;
-    left: 42.5%;
+    left:42.5%;
 }
 
-.abaut-title{
+.about-title{
     font-size: 17px;
-    color: #444;
+    color:#444;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-#abaut-list{
+#about-list{
     list-style: none;
     padding-left: 0;
 }
-
-#abaut-list li{
+#about-list li{
     line-height: 30px;
 }
 
-#abaut-list i{
-    color: #0ffacb;
+#about-list i{
+        color: #65daf9;
 }
 
-/*Servicos*/
-
+/*Serviços*/
 .service-box{
     text-align: center;
-    margin-bottom: 5px;
-
+    margin-bottom: 50px;
 }
+
 .service-box i, .service-box h4{
-    padding: 20px;
+    transition: .5s;
 }
 
 .service-box i{
-    color: #000000;
-    font-size: 25px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+
 }
 
 .service-box h4{
-    font-size: 25px;
-    margin-right: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .service-box:hover > i, .service-box:hover > h4{
-    color: #fa0f0f;
+    color: #65daf9;
+} 
+
+/*Dados Empresa*/
+
+.circle-box div{
+    padding: 0 40px;
+
+}
+
+.progressbar-text{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data area{
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    margin: 20px;
 }
