@@ -19,8 +19,8 @@ p, li {
 }
 /*Agencia*/
 
-.imgAgm{
-    border: 15px;
+#imgAgm{
+    border-radius: 15px;
 
 }
 
