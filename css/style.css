@@ -17,12 +17,6 @@ p, li {
     color: #444;
     font-size: 14px;
 }
-/*Agencia*/
-
-#imgAgm{
-    border-radius: 15px;
-
-}
 
 /*NAV*/
 
@@ -110,6 +104,11 @@ header, .navbar{
 }
 
 /*sobre a empresa */
+
+#imgAgm{
+    border-radius: 15px;
+}
+
 #about-area{
     background-color: #f9f9f9;
 }
@@ -172,7 +171,7 @@ header, .navbar{
 }
 
 .service-box:hover > i, .service-box:hover > h4{
-    color: #fc1e1e;
+    color: #ff0000;
 } 
 
 /*Dados Empresa*/
@@ -187,9 +186,91 @@ header, .navbar{
     font-size: 32px;
 }
 
-#data area{
+#data area p{
     color: #ff0000;
     text-align: center;
     font-size: 26px;
     margin: 20px;
+}
+
+/*Trabalhe conosco*/
+
+#apply-area{
+    height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row{
+    height: 100%;
+}
+
+#apply-area .apply-box{
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#company-img{
+    background-image: url(../img/empresa.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+#pattern-img h4, #pattern-img p{
+    color:#000;
+}
+
+#pattern-img h4{
+    margin: 8%;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img p{
+    margin-bottom: 20px;
+}
+
+#apply-btn{
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: #fff;
+    background-color: #444;
+}
+
+#apply-btn:hover{
+    border-color: #65daf9;
+    background-color: #65daf9;    
+}
+
+/* Portofolio*/
+
+/*PORTIFOLIO*/
+.project-box{
+    margin-bottom: 30px;
+}
+
+#filter-btn-box{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portfolio-area .filter-btn{
+    color:#444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;   
+}
+ #portofolio-area .filter-btn.active, #portofolio-area .filter-btn:hover{
+    color: #fff;
+    border: 1px solid #65daf9;
+    background-color: #65daf9;
 }
