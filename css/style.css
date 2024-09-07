@@ -370,3 +370,43 @@ header, .navbar{
 #call-area #call-btn:hover{
     background-color: #000000;
 }
+
+/*Footer*/
+
+#contact-area{
+    text-align: center;
+}
+
+.contact-box{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.contact-box i{ 
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;    
+}
+
+
+.contact-box p{
+    font-weight: bold; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
